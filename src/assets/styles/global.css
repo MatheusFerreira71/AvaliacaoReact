@@ -1,0 +1,40 @@
+:root {
+    font-size: 60%;
+}
+
+body {
+    min-width: 190px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root {
+    height: 100vh;
+}
+
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+body, input, button, textarea {
+    font: 500 1.6rem;
+}
+
+.container {
+    width: 90vw;
+    margin: 0.8rem 0 0.8rem 0;
+}
+
+@media (min-width: 700px) {
+    :root {
+        font-size: 62.5%;
+    }
+}

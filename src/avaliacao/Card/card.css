@@ -1,0 +1,41 @@
+.card-green, .title-green {
+    background-color: #32a868;
+}
+
+.card-purple, .title-purple {
+    background-color: #5D1066
+}
+
+.card-blue, .title-blue {
+    background-color: #3236A8
+}
+
+.card-title {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 2.0rem;
+    width: 100%;
+    text-align: center;
+}
+
+.card-container {
+    min-height: 100px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: center;
+}
+
+.card-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: #FFFFFF;
+    font-size: 1.8rem;
+    height: 10vh;
+    margin: 0 0.2rem 0 0.2rem;
+    text-align: center;
+}
